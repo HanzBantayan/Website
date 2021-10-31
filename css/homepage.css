@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../background.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
+.main h1{
+   padding: 5px;
+    margin: 10 px;
+    margin-left: 25px;
+    float: left;
+    font-family: cursive;
+    font-size: 40px; 
+    color: white;
+    position: absolute;
+} 
+
+.header ul {
+    float: right;
+    list-style-type: none;
+    
+}
+.header ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 24px;
+   
+    
+}
+.header ul li a:hover{
+    background-color: orange;
+       transition: 0.6s ease;
+    text-decoration: underline;
+    color: black;
+ 
+     
+}
+.header ul li.active a{
+     background-color: orange;
+    text-decoration: underline;
+    color: black;
+ 
+}
+.container1{
+    
+    
+    position: absolute;
+ top: 20%;
+    left: 15%;
+   width: auto;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.say{
+    position: absolute;
+    bottom: 75%;
+    left: 15%;
+}
+.say h2{
+      color: white;
+    text-align: center;
+    font-family: sans-serif;
+     font-size:30px; 
+    padding-top: 10px;
+}
+.say h1{
+    color: white;
+    font-family: sans-serif;
+    font-size:50px; 
+      text-align: center;
+    
+}
+.container1 .Slide1 {
+    margin: 10px;   
+    padding 30px;
+}
+.container1 .Slide1:hover {
+    
+   border-radius: 20px;
+    transition: 0.4s ease;
+    background-color: black;
+}
+.pic1:hover{
+    width: 500px;
+    height: 500px;
+    transition: 0.4s ease;
+}
+.pic2:hover{
+    width: 500px;
+    height: 500px;
+    transition: 0.4s ease;
+}
+.pic3:hover{
+    width: 500px;
+    height: 500px;
+    transition: 0.4s ease;
+}
+.container1 .Slide2:hover {
+    
+   border-radius: 20px;
+    transition: 0.4s ease;
+    background-color: black;
+}.container1 .Slide3:hover {
+    
+   border-radius: 20px;
+    transition: 0.4s ease;
+    background-color: black;
+}
+.container1 .Slide2 {
+    margin: 10px;   
+    padding 30px;
+}
+.container1 .Slide3 {
+    margin: 10px;   
+    padding 30px;
+}
+
+
+
+.button ul{
+      list-style-type: none;
+        position: absolute;
+    top: 88%;
+    right: 37%;
+    
+}
+.button ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 5px;
+   
+    
+}
+.button ul li a{
+     text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1 px white solid;
+    font-size: 50px;
+    font-style: oblique;
+    
+}
+.button li a:hover{
+    background-color: white;
+    transition: 0.6s ease;
+    color: black;
+    border-radius: 10px;
+}
+.Slide1{
+    padding: 10px;
+    border: 2px solid white;
+}
+.Slide2{
+    padding:10px;
+    border: 2px solid white;
+}
+.Slide3{
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.compparts{
+    
+    position: absolute;
+    top: 40%;
+    
+}
+.compparts ul li{
+    
+    margin: 5px;
+    padding: 15px;
+    font-size: 30px;
+   
+ 
+}
+.compparts ul li a{
+    text-decoration: none;
+    color: white;
+}
+.compparts ul li :hover{
+    transition: 0.4s ease;
+    background-color: orange;
+   color: black;
+    padding: 10px;
+    border-radius: 10px;
+     
+}
+.logo{
+   position: absolute;
+    top: 2%;
+    left: 1%;
+}

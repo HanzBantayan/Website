@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../background.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+.main h1{
+   padding: 5px;
+    margin: 10 px;
+    margin-left: 25px;
+    float: left;
+    font-family: cursive;
+    font-size: 40px; 
+    color: white;
+    position: absolute;
+} 
+
+.header ul {
+    float: right;
+    list-style-type: none;
+    
+}
+.header ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 24px;
+   
+    
+}
+.header ul li a:hover{
+    background-color: orange;
+       transition: 0.6s ease;
+    text-decoration: underline;
+    color: black;
+ 
+     
+}
+.header ul li.active a{
+     background-color: orange;
+    text-decoration: underline;
+    color: black;
+ 
+}
+
+
+
+
+
+
+.registration-form{
+ 
+    color: white;
+    margin: 40px;
+    padding: 5px;
+    font-size: 30px;
+    
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform:translate(-50%, -50%);
+    width: 350px;   
+    
+   
+    
+}
+
+.reg {
+  
+    border: 2.5px solid;
+  border-color: #00A19D;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-20%, 45%);
+    font-size: 35px;
+    text-align: center;
+  
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 7px 0;
+    
+    
+}
+
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    height: 10px;
+    width: 120%;
+    border: 0;
+    border-radius: 10px;
+    margin: 15px;
+    
+    
+}
+
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+   margin: 10px 15px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.registration-form button:hover{
+    color: black;
+    background-color: #FFB319;
+    
+}
+
+
+
+
+.logo{
+   position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../background.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+.main h1{
+   padding: 5px;
+    margin: 10 px;
+    margin-left: 25px;
+    float: left;
+    font-family: cursive;
+    font-size: 40px; 
+    color: white;
+    position: absolute;
+} 
+
+.header ul {
+    float: right;
+    list-style-type: none;
+    
+}
+.header ul li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 24px;
+   
+    
+}
+.header ul li a:hover{
+    background-color: orange;
+       transition: 0.6s ease;
+    text-decoration: underline;
+    color: black;
+ 
+     
+}
+.header ul li.active a{
+     background-color: orange;
+    text-decoration: underline;
+    color: black;
+ 
+}
+
+.compparts{
+    
+    position: absolute;
+    top: 35%;
+    
+}
+.compparts ul li{
+    
+    margin: 5px;
+    padding: 15px;
+    font-size: 40px;
+   
+ 
+}
+.compparts ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.compparts ul li :hover{
+    transition: 0.4s ease;
+    background-color: orange;
+   color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+
+     
+}
+
+.proc1{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+  
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 10px;
+    
+    
+}
+.pic1{
+    border: 0px;
+    border-radius: 10px;
+    
+}
+.pic1:hover{
+    
+    height: 210px;
+    width: 210px;
+    transition: 0.3s ease;
+   
+   
+}
+
+.price1{
+    color: white;
+    text-align: center;
+  
+}
+
+.one{
+    
+  position: absolute;
+    left: 30%;
+}
+.proc2{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+  
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 10px;
+   
+}
+
+.pic2:hover{
+    
+    height: 210px;
+    width: 210px;
+    transition: 0.3s ease;
+   
+}
+
+.price2{
+    color: white;
+    text-align: center;
+    
+}
+.two{
+      position: absolute;
+    left: 30%;
+}
+.pic2{
+    border: 0px;
+    border-radius: 10px;
+    
+}
+.proc3{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+  
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 10px;
+   
+}
+.pic3:hover{
+    
+    height: 210px;
+    width: 210px;
+    transition: 0.3s ease;
+   
+}
+.price3{
+    color: white;
+    text-align: center;
+    
+}
+
+.three{
+      position: absolute;
+    left: 30%;
+}
+.pic3{
+    border: 0px;
+    border-radius: 10px;
+    
+}
+.proc4{
+    position: absolute;
+    top: 35%;
+    left: 75%;
+  
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 10px;
+   
+}
+.pic4:hover{
+    
+    height: 210px;
+    width: 210px;
+    transition: 0.3s ease;
+   
+}
+.price4{
+    color: white;
+    text-align: center;
+    
+}
+.four{
+    
+   position: absolute;
+    left: 30%;
+}
+.pic4{
+    border: 0px;
+    border-radius: 10px;
+    
+}
+
+
+.logo{
+   position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.compparts .one{
+     background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
